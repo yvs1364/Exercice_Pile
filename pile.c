@@ -36,6 +36,8 @@ int main(){
     printf("La valeur %d a ete enleve de la pile\n", pop(myPile));
     printf("--------------------------------\n");
     showPile(myPile);
+
+    return 0;
 }
 
 Pile *init(){
